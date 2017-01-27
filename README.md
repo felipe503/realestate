@@ -23,4 +23,5 @@
         var _key	= 'zsfg44p7uo553e2fs7nxqleaya';//'zsfg44p7uo553e2fs7nxqleaya';//'504vs303rwdi0y98pfbxf7hrt';
         var _lang = 'fr';	
       </script>
-      <script src="files/js/navigation.js"></script>
+## Script
+      <script src="navigation.js"></script>
