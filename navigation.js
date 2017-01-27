@@ -1,5 +1,5 @@
 var uri = window.location.href.split("#")[0];
-var path_to_data = 'http://www.guidehabitation.ca/f1nd_request/f1nd_feed-03a.php?mode=json&ghid='+_ghid+'&group=all&key='+_key;
+var path_to_data = 'https://www.guidehabitation.ca/f1nd_request/f1nd_feed-03a.php?mode=json&ghid='+_ghid+'&group=all&key='+_key;
 
 $.ajax({
 	url: path_to_data,
@@ -350,7 +350,7 @@ function getAvailableUnitsbyRoomsNumber(data,nbr_rooms)
 	$('#search-results').remove();
 	unitsByRoomsNumber='';
 	unitsByRoomsNumber+='<table id="search-results" class="table table-striped">';
-	unitsByRoomsNumber+='<th>Unité</th><th>Phase</th><th>Étage</th><th>Nombre de chambres</th><th>Prix</th>';
+	unitsByRoomsNumber+='<th>UnitÃ©</th><th>Phase</th><th>Ã‰tage</th><th>Nombre de chambres</th><th>Prix</th>';
 	for(i=0;i<n;i++)
 	{
 		if(data[i].available==1 && data[i].nbr_room_fr==nbr_rooms)
